@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FaHandHoldingMedical } from "react-icons/fa6";
+import Better from "./Better";
 
 const Banner = () => {
     const features = [
@@ -108,6 +109,8 @@ const Banner = () => {
                 ))}
             </div>
         </div>
+
+        <Better></Better>
     </div>;
 };
 export default Banner;
