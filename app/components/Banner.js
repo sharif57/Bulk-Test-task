@@ -36,25 +36,25 @@ const Banner = () => {
             image: "/a.item-icon-e (5).png",
         },
     ];
-    return <div>
-        <div className="bg-[#e2f5fb] h-[900px] relative">
+    return <div className="bg-[#e2f5fb]">
+        <div className=" lg:h-[900px] relative container mx-auto">
             <div className="text-center py-10 mb-10">
-                <h className='text-8xl font-bold  text-center text-[#003569] '>Essentail Vitamins</h>
+                <h className='lg:text-8xl text-4xl font-bold  text-center text-[#003569] '>Essentail Vitamins</h>
             </div>
-            <div className="flex justify-around items-center">
+            <div className="lg:flex p-2 justify-around items-center">
                 <div className="space-y-3">
                     <p className="text-2xl font-normal text-gray-500">Online Medical Supplies</p>
-                    <h1 className="text-4xl w-3/4   ">Get Your Vitamins
+                    <h1 className="text-4xl lg:w-3/4   ">Get Your Vitamins
                         & Minerals</h1>
                     <button className="btn text-white rounded-r-full rounded-l-full px-8   btn-neutral">Explore</button>
                 </div>
                 <div
-                    className="bg-no-repeat    relative"
+                    className="bg-no-repeat lg:mt-0  mt-16  relative bg-center"
                     style={{ backgroundImage: `url('/Rectangle 1 (1).png')` }}
                 >
                     <div className="relative">
                         <Image
-                            className="relative -top-28"
+                            className="relative lg:-top-28"
                             src={'/bannerss.png'}
                             alt="Banner"
                             height={100}
@@ -90,7 +90,7 @@ const Banner = () => {
                 </div>
             </div>
         </div>
-        <div className="bg-[#17414f] max-w-6xl mx-auto p-14 rounded-[60px] h-[400px] text-white relative -top-40">
+        <div className="bg-[#17414f] max-w-6xl mx-auto p-14 rounded-[60px] lg:h-[400px] text-white relative mt-10 lg:mt-0 lg:-top-40">
             {/* Grid Section */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-center gap-10 relative -top-24">
                 {features.map((feature, index) => (
