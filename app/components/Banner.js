@@ -36,55 +36,71 @@ const Banner = () => {
             image: "/a.item-icon-e (5).png",
         },
     ];
-    return <div className="bg-[#e2f5fb]">
-        <div className=" lg:h-[900px] relative container mx-auto">
-            <div className="text-center py-10 mb-10">
-                <h className='lg:text-8xl text-4xl font-bold  text-center text-[#003569] '>Essentail Vitamins</h>
-            </div>
-            <div className="lg:flex p-2 justify-around items-center">
-                <div className="space-y-3">
-                    <p className="text-2xl font-normal text-gray-500">Online Medical Supplies</p>
-                    <h1 className="text-4xl lg:w-3/4   ">Get Your Vitamins
-                        & Minerals</h1>
-                    <button className="btn text-white rounded-r-full rounded-l-full px-8   btn-neutral">Explore</button>
+    return <div className="">
+        <div className="lg:h-[900px]  bg-[#e2f5fb]">
+            <div className=" relative container mx-auto">
+                <div className="text-center py-10 mb-10">
+                    <h className='lg:text-8xl text-4xl font-bold  text-center text-[#003569] '>Essentail Vitamins</h>
                 </div>
-                <div
-                    className="bg-no-repeat lg:mt-0  mt-16  relative bg-center"
-                    style={{ backgroundImage: `url('/Rectangle 1 (1).png')` }}
-                >
-                    <div className="relative">
-                        <Image
-                            className="relative lg:-top-28"
-                            src={'/bannerss.png'}
-                            alt="Banner"
-                            height={100}
-                            width={400}
-                        />
+                <div className="lg:flex p-2 justify-around items-center">
+                    <div className="space-y-3">
+                        <p className="text-2xl font-normal text-gray-500">Online Medical Supplies</p>
+                        <h1 className="text-4xl lg:w-3/4   ">Get Your Vitamins
+                            & Minerals</h1>
+                        <button className="btn text-white rounded-r-full rounded-l-full px-8   btn-neutral">Explore</button>
                     </div>
-                </div>
+                    <div
+                        className="bg-no-repeat lg:mt-0  mt-16  relative bg-center"
+                        style={{ backgroundImage: `url('/Rectangle 1 (1).png')` }}
+                    >
+                        <div className="relative">
+                            <Image
+                                className="relative lg:-top-28"
+                                src={'/bannerss.png'}
+                                alt="Banner"
+                                height={100}
+                                width={400}
+                            />
+                        </div>
+                    </div>
 
-                <div className="space-y-3">
-                    <div className="flex items-center gap-4" >
-                        <FaHandHoldingMedical className="size-16 text-white bg-[#17414f] p-3 rounded-full" />
-                        <div >
-                            <h1 className="text-2xl font-bold">Vitamins</h1>
-                            <p>Increased Vitamins and <br /> minerals in your diet</p>
+                    <div className="space-y-7">
+                        <div className="flex items-center gap-4" >
+                            {/* <FaHandHoldingMedical className="size-16 text-white bg-[#17414f] p-3 rounded-full" /> */}
+                            <Image
+                                src={'/phs.png'}
+                                width={80}
+                                height={80}
+
+                            />
+                            <div >
+                                <h1 className="text-2xl font-bold">Vitamins</h1>
+                                <p>Increased Vitamins and <br /> minerals in your diet</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="flex items-center gap-4" >
-                        <FaHandHoldingMedical className="size-16 text-white bg-[#17414f] p-3 rounded-full" />
-                        <div >
-                            <h1 className="text-2xl font-bold">Weight Loss</h1>
-                            <p> Weight Loss <br />
-                                Find scientifically proven solutions</p>
+                        <div className="flex items-center gap-4" >
+                            {/* <FaHandHoldingMedical className="size-16 text-white bg-[#17414f] p-3 rounded-full" /> */}
+                            <Image
+                                src={'/hhk.png'}
+                                width={80}
+                                height={80}
+                            />
+                            <div >
+                                <h1 className="text-2xl font-bold">Weight Loss</h1>
+                                <p> Weight Loss <br />
+                                    Find scientifically proven solutions</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="flex items-center gap-4" >
-                        <FaHandHoldingMedical className="size-16 text-white bg-[#17414f] p-3 rounded-full" />
-                        <div >
-                            <h1 className="text-2xl font-bold">Vitamins</h1>
-                            <p>Functional Foods <br />
-                                From protein powers to baby formula</p>
+                        <div className="flex items-center gap-4" >
+                            <Image
+                                src={'/jih.png'}
+                                width={80}
+                                height={80}
+                            />                        <div >
+                                <h1 className="text-2xl font-bold">Vitamins</h1>
+                                <p>Functional Foods <br />
+                                    From protein powers to baby formula</p>
+                            </div>
                         </div>
                     </div>
                 </div>
